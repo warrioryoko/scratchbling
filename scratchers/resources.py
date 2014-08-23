@@ -7,6 +7,6 @@ from models import Scratcher
 class ScratcherResource(ModelResource):
     class Meta:
 		queryset = Scratcher.objects.filter()
-		authorization = Authentication()
-		authorization = Authorization()
+		#authentication = Authentication()
+		#authorization = Authorization()
 
