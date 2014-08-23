@@ -1,1 +1,1 @@
-web: gunicorn samegrain.wsgi
+web: gunicorn sb.wsgi
